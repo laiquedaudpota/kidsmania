@@ -1,0 +1,42 @@
+[
+    {
+        "id": "numbers",
+        "text": "NUMBERS",
+        "image": "images/numbers/0.png"
+    },
+    {
+        "id": "alphabets",
+        "text": "ALPHABETS",
+        "image": "images/alphabets/a.png"
+    },    
+    {
+        "id": "shapes",
+        "text": "SHAPES",
+        "image": "images/shapes/circle.png"
+    },
+    {
+        "id": "fruits",
+        "text": "FRUITS",
+        "image": "images/fruits/apple.png"
+    },
+    {
+        "id": "vegetables",
+        "text": "VEGETABLES",
+        "image": "images/vegetables/cabbage.png"
+    },   
+    {
+        "id": "animals",
+        "text": "ANIMALS",
+        "image": "images/animals/bear.png"
+    },
+    {
+        "id": "birds",
+        "text": "BIRDS",
+        "image": "images/birds/bat.png"
+    },
+    {
+        "id": "colours",
+        "text": "COLOURS",
+        "image": "images/colours/blue.png"
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "main": "app.js",
+    "name": "children",
+    "version": "1.0.0",
+    "description": "Kids Mania application for learning purpose",
+    "scripts": {},
+    "author": "Laique Ali",
+    "dependencies": {
+      "pino": "6.11.1",
+      "express": "4.18.2",
+      "serve-favicon": "2.5.0",
+      "mustache-express": "1.3.2",
+      "express-useragent": "1.0.15"
+    }
+  }

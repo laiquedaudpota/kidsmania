@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kids Mania</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body style="background: palevioletred;">
+    <div class="site-wrap">
+        <div class="site-mobile-menu">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <header class="site-navbar py-3" role="banner">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-6 col-xl-2">
+                        <h1 class="mb-0">
+                            <a href="/" class="text-white h2 mb-0" style="text-shadow: 5px 5px black;">
+                                Kids Mania
+                            </a>
+                        </h1>
+                    </div>
+                    <div class="col-10 col-md-8 d-none d-xl-block">
+                        <h6 class="errorMessage" style="color: gold;"></h6>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid kids-sup-category">
+            <div class="row">
+                {{#data}}
+                <div class="col-lg-4">
+                    <div class="image-wrap-2">
+                        <div class="image-info">
+                            <h2 class="mb-3">{{text}}</h2>
+                            <a href="javascript:;manipulation('{{id}}');"
+                                class="btn btn-outline-white py-2 px-4 ahref-supcat">Say Loud</a>
+                        </div>
+                        <img src="{{image}}" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+                {{/data}}
+            </div>
+        </div>
+
+        <div class="container-fluid kids-sub-category">
+        </div>
+
+        <div class="footer py-4">
+            <div class="container-fluid text-center">
+                <p>
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with
+                    <a href="https://github.com/laiquedaudpota" target="_blank">ArhamZohan</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body" style="text-align: -webkit-center;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <p class="errorMessage"></p>
+                    <h4 class="modal-title kids-alt" style="color: gold; font-size: large; font-family: cursive;"></h4>
+                    <img src="/images/favicon.jpg" class="img-responsive kids-img" />
+                    <div class="footer py-4">
+                        <div class="container-fluid text-center">
+                            <p>
+                                Powered by:
+                                <a href="https://github.com/laiquedaudpota" target="_blank">
+                                    ArhamZohan
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/speechToText.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-3.0.1.min.js"></script>
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="/js/kids.resources.js"></script>
+    <script type="text/javascript" src="/js/kids.main.js"></script>
+</body>
+
+</html>
